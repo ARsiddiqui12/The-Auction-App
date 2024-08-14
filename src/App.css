@@ -1,0 +1,122 @@
+.one{
+  background-color: #f0f2f5;
+}
+.two{
+  margin-top: -0.16rem;
+}
+.three{
+  margin-top: -0.16rem;
+}
+.four{
+  margin-top: -0.16rem;
+}
+.five{
+  margin-top: -0.16rem;
+}
+
+  /* Body styles */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 0;
+}
+
+/* Form container styles */
+.form-container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Input styles */
+.form-control {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+/* Textarea styles */
+.form-control-textarea {
+    resize: none;
+    height: 100px;
+}
+
+/* Label styles */
+.form-label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+}
+
+/* Submit button styles */
+.btn-submit {
+    background-color: #4267B2;
+    color: #fff;
+    border: none;
+    padding: 5px 5px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+    width: 100%;
+}
+
+
+/* Submit button hover styles */
+.btn-submit:hover {
+    background-color: #3b5998;
+}
+
+
+fieldset{
+  border-radius: 5px;
+}
+
+.custom-file {
+  position: relative;
+  overflow: hidden;
+}
+
+.custom-file-input {
+  position: absolute;
+  top: 0;
+  right: 0;
+  min-width: 100%;
+  min-height: 100%;
+  font-size: 100px;
+  text-align: right;
+  filter: alpha(opacity=0);
+  opacity: 0;
+  outline: none;
+  background: white;
+  cursor: inherit;
+  display: block;
+}
+
+.custom-file-label {
+  display: inline-block;
+  padding: 10px 15px;
+  border-radius: 4px;
+  background-color: #51cc6c;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  float: right;
+}
+
+.custom-file-label:hover {
+  background-color: #3b5998;
+}
+.form-show{
+ float: right;
+ cursor: pointer;
+ font-size: 20px;
+}
